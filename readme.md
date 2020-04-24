@@ -7,18 +7,18 @@
 ########################################################################
 
 
-Running app:
-- WebServer:
+Run the app:
+- Start WebServer:
 cd app
 npm run dev
 
-- Truffle (new terminal):
+- Start Truffle (in new terminal):
 truffle develop
 
-- Chrome:
-http://localhost:8081/
-if error "gas limit" when transaction in metamask then
+- Browser the app in a webbrowser, like Chrome:
+URL http://localhost:8081/
+if an error "gas limit" is displayed in metamask when doing an transaction then
 - in truffle call migrate --reset
 - maybe change network in metmask to other network and then back to "truffle port 9545"
 
-if error "payload" when transaction in metamask then "reset account" in metamask
+if error "payload" is displayed in metamask when doing an transaction then use the function "reset account" in metamask
